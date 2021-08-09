@@ -1,6 +1,6 @@
 # Multilingual json split
-Split the JSON into multiple files of each language.
 
+Split the JSON into multiple files of each language.
 
 ## 🤔 How to use?
 
@@ -13,12 +13,16 @@ Split the JSON into multiple files of each language.
       "ua": "UA value",
       "ru": "RU value",
       "en": "EN value"
-    },
+    }
   }
 }
 ```
 
-2. Run: `node index.js`
+2. Run:
+
+```shell
+node index.js
+```
 
 ## 🎉 Result
 
@@ -27,7 +31,7 @@ Split the JSON into multiple files of each language.
 ```json
 {
   "object-property": {
-    "child-object-property": "UA value",
+    "child-object-property": "UA value"
   }
 }
 ```
@@ -37,7 +41,7 @@ Split the JSON into multiple files of each language.
 ```json
 {
   "object-property": {
-    "child-object-property": "RU value",
+    "child-object-property": "RU value"
   }
 }
 ```
@@ -47,9 +51,7 @@ Split the JSON into multiple files of each language.
 ```json
 {
   "object-property": {
-    "child-object-property": "EN value",
+    "child-object-property": "EN value"
   }
 }
 ```
-
-
